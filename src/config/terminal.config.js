@@ -1,6 +1,9 @@
 import chalk from 'chalk'
 
+const { TERMINAL_UI_PROMPT: prompt = '> ' } = process.env
+
 export default Object.freeze({
+  displayOptions: { prompt },
   tableOptions: {
     leftPad: 2,
     columns: [
