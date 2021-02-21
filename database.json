@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Gone Away",
+    "artists": ["Nomy"],
+    "duration": 270,
+    "addedAt": "2020-12-31"
+  },
+  {
+    "title": "Unsainted",
+    "artists": ["Slipknot"],
+    "duration": 261,
+    "addedAt": "2020-12-16"
+  },
+  {
+    "title": "Pressure (ft. Tove Lo)",
+    "artists": ["Martin Garrix", "Tove Lo"],
+    "duration": 144,
+    "addedAt": "2021-02-18"
+  },
+  {
+    "title": "Decode",
+    "artists": ["Barbie Sailers", "Violet Orlandi"],
+    "duration": 268,
+    "addedAt": "2021-02-19"
+  },
+  {
+    "title": "Africa (Metal Cover)",
+    "artists": ["Leo", "Hannah Boulton", "Rabea Massad"],
+    "duration": 238,
+    "addedAt": "2019-10-10"
+  }
+]
