@@ -12,14 +12,18 @@ export class Music {
   }
 
   static make(input) {
-    const [title, rawArtists, rawDuration, addedAt] = input
-      .split(',')
-      .map((each) => each.trim())
+    try {
+      const [title, rawArtists, rawDuration, addedAt] = input
+        .split(',')
+        .map((each) => each.trim())
 
-    const artists = rawArtists.split(';').map((each) => each.trim())
-    const duration = parseInt(rawDuration, 10)
+      const artists = rawArtists.split(';').map((each) => each.trim())
+      const duration = parseInt(rawDuration, 10)
 
-    return new Music({ addedAt, artists, duration, title })
+      return new Music({ addedAt, artists, duration, title })
+    } catch (ex) {
+      throw new Error('Invalid Input')
+    }
   }
 
   formatted(language = config.lang) {
